@@ -18,7 +18,7 @@ class MainKtTest {
             typeCard,
             summa, summaForMonthAndTotalTax
         )
-        assertEquals(0.0, summaForMonthAndTotalTax[1], 0.00000001)
+        assertEquals(12.0, summaForMonthAndTotalTax[1], 0.00000001)
     }
 
     @Test
